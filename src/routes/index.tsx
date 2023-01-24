@@ -1,11 +1,12 @@
 import { Title } from "solid-start";
 import Counter from "~/components/Counter";
+import Moznosti from "~/components/Moznosti";
 
 export default function Home() {
   return (
     <main>
-      <Title>Vlkancicka bojovka 2023</Title>
-      <h1>Vitej bojovníku</h1>
+      <Title>David Zitko</Title>
+      <h1>David Zítko</h1>
       <Counter />
       <p>
         Visit{" "}
@@ -14,6 +15,7 @@ export default function Home() {
         </a>{" "}
         to learn how to build SolidStart apps.
       </p>
+      <Moznosti />
     </main>
   );
 }
